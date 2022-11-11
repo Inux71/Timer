@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="ClockView">
+    <declare-styleable name="DigitView">
         <attr name="min" format="integer"/>
         <attr name="max" format="integer"/>
     </declare-styleable>
