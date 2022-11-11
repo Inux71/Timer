@@ -5,6 +5,5 @@
     <string name="stop_button">Stop</string>
     <string name="plus_button">+</string>
     <string name="minus_button">-</string>
-    <string name="digitbox">0</string>
     <string name="separator">:</string>
 </resources>

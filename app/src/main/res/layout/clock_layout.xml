@@ -7,18 +7,20 @@
     android:layout_marginHorizontal="5dp">
 
     <Button
+        android:id="@+id/plus_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/plus_button"/>
 
     <TextView
+        android:id="@+id/digit_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/digitbox"
         android:textAlignment="center"
-        android:textSize="72dp"/>
+        android:textSize="72sp"/>
 
     <Button
+        android:id="@+id/minus_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/minus_button"/>
