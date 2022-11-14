@@ -14,12 +14,14 @@
         android:layout_centerInParent="true">
 
         <com.example.timer.DigitView
+            android:id="@+id/dozensMinutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:min="0"
             custom:max="9"/>
 
         <com.example.timer.DigitView
+            android:id="@+id/unitsMinutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:min="0"
@@ -34,12 +36,14 @@
             android:layout_gravity="center"/>
 
         <com.example.timer.DigitView
+            android:id="@+id/dozensSeconds"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:min="0"
             custom:max="5"/>
 
         <com.example.timer.DigitView
+            android:id="@+id/unitsSeconds"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:min="0"
@@ -54,18 +58,21 @@
         android:layout_centerInParent="true">
 
         <Button
+            android:id="@+id/start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start_button"
             style="@style/CustomButtonStyle"/>
 
         <Button
+            android:id="@+id/pause_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pause_button"
             style="@style/CustomButtonStyle"/>
 
         <Button
+            android:id="@+id/stop_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/stop_button"

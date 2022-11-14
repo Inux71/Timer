@@ -9,6 +9,7 @@
     android:orientation="horizontal">
 
     <com.example.timer.ClockView
+        android:id="@+id/clock_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
