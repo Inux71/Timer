@@ -55,8 +55,7 @@ class MainActivity : AppCompatActivity() {
         clockView.dozensSeconds.update()
         clockView.unitsSeconds.update()
 
-        if (clockView.timer?.IsRunning == true) {
-            clockView.timer?.start()
-        }
+        clockView.timer = Timer(clockView.dozensMinutes.CurrentValue, clockView.unitsMinutes.CurrentValue, clockView.dozensSeconds.CurrentValue, clockView.unitsSeconds.CurrentValue, {clockView.updateView(it)}, {clockView.resetActivity()})
+        clockView.timer?.start()
     }
 }
